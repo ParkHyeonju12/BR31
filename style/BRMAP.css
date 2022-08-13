@@ -1,0 +1,147 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 320px;
+}
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+input:focus {
+    outline: none;
+}
+html{
+    /* 1rem = 10px */
+    font-size: 62.5% ;  
+}
+.map-top{
+    position: relative;
+}
+.map-img{
+    width: 1400px;
+    height: 630px;
+    margin: 0 auto;
+}
+.map-search{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.store-wrap{
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+.search-table{
+    width: 250px;
+    height: 260px;
+    background-color: #1e2a58ed;
+    border-radius: 15px;
+}
+.h3 {
+    height: 50px;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px auto;
+    padding: 15px;
+}
+.h3>span{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+select[name=map-do], select[name=map-si]{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+select[name=map-do]{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+input[name=store-name]{
+    display: block;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 225px;
+    height: 35px;
+    font-weight: 700;
+}
+input[name=search]{
+    display: block;
+    margin: 20px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(70, 95, 176);
+    color: white;
+    border: none;
+}
+input[name=search]{
+    cursor: pointer;
+}
+.map-div1 {
+    width: 800px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color:#ffb8e2;
+    margin: 0 auto;
+}
+
+.dang{
+    text-align: left;
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+}
+.icon{
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    margin-left: 350px;
+    margin-top: 9.5px;
+    margin-top: 20px;
+}
+.icon>span{
+    margin-right: 8px;
+}
+.icon>span:hover{
+ cursor: pointer;
+}
+.st{
+    border: 1px solid rgba(224, 219, 219, 0.558);
+    width: 800px;
+    background-color: white;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 900;
+    border-top: none;
+    margin-top: 30px;
+
+}
+.store-top{
+    float: left;
+}
+.map-ul1>li{
+    margin-left: 280px;
+    margin-bottom: 8px;
+}
+.map-li1{
+    margin-top: 30px;
+    margin-right: 60px;
+}

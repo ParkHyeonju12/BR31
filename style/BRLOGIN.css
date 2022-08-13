@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 320px;
+}
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+input:focus {
+    outline: none;
+}
+html {
+    /* 1rem = 10px */
+    font-size: 62.5% ;  
+}
+.login-wrap>div {
+   width: 1400px;
+}
+.login-wrap{
+    height: 800px;
+    margin: auto;
+}
+.login-title{
+    padding-top: 120px;
+}
+.h1, .form1 {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 4rem;
+}
+.login-h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 3px solid #c4c4c4;
+    padding-bottom: 25px;
+}
+.login-h3-2, .login-h3-3{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.login-h3-3{
+    color: hotpink;
+}
+.h3,.l-f {
+    width: 1400px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #5e5a5a;
+    font-size: 2rem;
+}
+
+.login-footer{
+    margin: auto;
+}
+.login-footer>div {
+    border-top: 3px solid  #c4c4c4;
+}
+.user-id, .user-pw{
+    font-weight: 600;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+#id, #pw{
+    background-color: #d8d8d8;
+    width: 300px;
+    height: 60px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+.form1{
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#id{
+    margin-left: 10px;
+}
+.login-name>div>input{
+    background-color: hotpink;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+}
+.form1>div{
+    float: left;
+    height: 170px;
+}
+.login-name{
+    line-height: 140px;
+    margin-left: 20px;
+}
+.login-main, .login-title{
+    margin: 0 auto;
+}
+.l-f{
+    padding: 20px 0;
+    padding-bottom: 100px;
+}
+.l-f>a>span{
+    padding: 0 30px ;
+    border-right: 1px solid gray;
+}
+.l-f>a:last-child>span{
+    padding: 0 30px ;
+    border-right: none
+}
